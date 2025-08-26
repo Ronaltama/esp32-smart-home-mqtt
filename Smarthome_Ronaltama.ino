@@ -105,12 +105,12 @@
 #include <time.h>
 
 // WiFi & MQTT settings
-const char* ssid = "my_technology";
-const char* password = "35k4nu54marina";
+const char* ssid = "nama wifi";
+const char* password = "pw";
 const char* mqttServer = "broker.hivemq.com";
 const int mqttPort = 1883;
-const char* mqttUser = "ronaltama";
-const char* mqttPassword ="ronaltama12345";
+const char* mqttUser = "nama";
+const char* mqttPassword ="pw";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
